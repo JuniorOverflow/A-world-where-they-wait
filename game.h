@@ -1,22 +1,22 @@
 #ifdef GAME_H
 #define GAME_H
 
-#include "player.h"
-#include "saveSystem.h"
 #include <iostream>
 #include <string>
 #include <vector>
+#include "player.h"
+#include "saveSystem.h"
 
 class game
 {
 private:
-  Player = player;
-  SaveSystem = saveSystem;
+  Player player;
+  SaveSystem saveSystem;
   int currentChapter;
   bool isRunning = true;
 
   //Главы
-  void chapter1;
+  void chapter1();
 
   //Вспомогатели 
   void clearScreen();
@@ -31,12 +31,9 @@ private:
 public:
   Game();
   void run();
-  void startGame;
-  void continueGame;
-  void showMainMenu;
-
-
+  void startGame();
+  void continueGame();
+  void showMainMenu();
 };
 
 #endif 
-

@@ -7,10 +7,9 @@
 #include <string>
 #include <vector>
 
-using namespace std;
 
-
-void run() {
+void run() 
+{
   showMainMenu();
 }
 
@@ -19,10 +18,10 @@ void showMainMenu()
 
   while (isRunning)
   {
-    cout << "---- Добро пожаловать в игру The alchemy of eternal sunset ----" << endl;
-    cout << "1. Новая игра " << endl;
-    cout << "2. Продольжить " << endl;
-    cout << "3. Выход " << endl;
+    std::cout << "---- Добро пожаловать в игру The alchemy of eternal sunset ----" << std::endl;
+    std::cout << "1. Новая игра " << std::endl;
+   std::cout << "2. Продольжить " << std::endl;
+    std::cout << "3. Выход " << std::endl;
 
   }
 

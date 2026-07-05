@@ -7,9 +7,8 @@
 class saveSystem
 {
 private:
-  std::string fileSaveName;
+  std::string _file_Save_Name_;
   int currentChapter;
-
 public:
   SaveSystem();
 
@@ -19,10 +18,6 @@ public:
 
   void setCurrentChapter(int chapter) { currentChapter = chapter; }
   int getCurrentChapter() const { return chapter; }
-
-
-
 };
-
 
 #endif

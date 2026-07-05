@@ -6,6 +6,6 @@ Player::Player()
 {
   name = "Эванжелина";
   health = 100;
-  mana = 100;
+  mana = 150;
 
 }

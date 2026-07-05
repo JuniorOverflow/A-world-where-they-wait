@@ -10,15 +10,16 @@ class Player
 {
 private:
   //Добавляем характеристике для геройне
-  std::string name;
-  int health;
-  int maxHealth;
-  float damage;
+  std::string _name_;
+  int player.health;
+  int player.maxHealth;
+  float player.damage;
   float levelUpDamage;
   int xp;
   int level;
-  int mana;
+  int player.mana;
   std::vector<std::string> inventory;
+  bool skils;
   bool hesSword;
   bool hesNewSword;
   bool ignifer;
@@ -48,6 +49,7 @@ public:
   bool getHasSword() const { return hasSword; }
   bool gerHasNewSword() const { return hasNewSword; }
   bool getIsImprisoned() const { return isImprisoned; }
+  bool addSkills() const { return skills; }
 
   //Добовляем окна c статистикой
   void displayStatus() const;
@@ -55,8 +57,6 @@ public:
   void displayLevel() const;
   void displayHealht() const;
   void displayMana() const;
-
-
 };
 
 #endif 
