@@ -11,13 +11,13 @@ class Player
 private:
   //Добавляем характеристике для геройне
   std::string _name_;
-  int player.health;
-  int player.maxHealth;
-  float player.damage;
+  int health;
+  int maxHealth;
+  float damage;
   float levelUpDamage;
   int xp;
   int level;
-  int player.mana;
+  int mana;
   std::vector<std::string> inventory;
   bool skils;
   bool hesSword;
