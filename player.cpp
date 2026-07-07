@@ -4,7 +4,7 @@
 
 Player::Player()
 {
-  name = "Эванжелина";
+  _name_ = "Эванжелина";
   health = 100;
   mana = 100;
 
